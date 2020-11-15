@@ -17,6 +17,7 @@ def train(opt):
     print("\t number of stages: {}".format(opt.train_stages))
     print("\t number of concurrently trained stages: {}".format(opt.train_depth))
     print("\t learning rate scaling: {}".format(opt.lr_scale))
+    print("\t num_layer: {}".format(opt.num_layer))
     print("\t non-linearity: {}".format(opt.activation))
 
     real = functions.read_image(opt)
